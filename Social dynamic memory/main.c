@@ -356,7 +356,7 @@ void save(node head) {
   }
   fclose(fptr);                                         //Close the file
 }
-
+/*
 int open(int userCounter) {                                            //Not currently working (was not aware of fscanf())
   node temp,ptr,temp1;
   char init1;
@@ -443,7 +443,7 @@ int open(int userCounter) {                                            //Not cur
   fclose(fptr);                                         //Close the file
   return userCounter;                                   //Return the upfdated user counter
 }
-
+*/
 int main() {
   int userCounter=0;
   int menuNumber,confirm;

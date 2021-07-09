@@ -30,6 +30,7 @@ int daysCalculator(int mm, int yyyy) {
 }
 
 int main () {
+    printf("Hellow");
     int mm, yyyy;
     printf ("Enter a month in the form mm:\n");
     scanf ("%d", &mm);
@@ -39,4 +40,5 @@ int main () {
     printf("/%d\n",yyyy);
     int numberOfDays = daysCalculator(mm, yyyy);
     printf("The month has %d days.", numberOfDays);
+    return 0;
 }
